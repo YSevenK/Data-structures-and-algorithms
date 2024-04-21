@@ -11,7 +11,7 @@ public class BinarySearch_01 {
      */
     public static int BinarySearchBasic(int[] a, int target) {
         int i = 0, j = a.length - 1; // 设置指针和初值
-        while (i <= j) {    // i~j 范围内有东西
+        while (i <= j) {    // i~j范围内有东西
             int m = (i + j) / 2;    // 会自动取整
             // int m = (i + j) >>> 1;    // 二进制形式右移一位 和 除2 一样
             if (target < a[m]) {
