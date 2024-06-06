@@ -1,10 +1,7 @@
-package com.ysk;
+package com.ysk.BinarySearch;
 
-import java.util.Arrays;
-
-public class BinarySearch {
+public class main {
     public static void main(String[] args) {
-
         int[] arr = new int[100];
         int target = 42;
 
