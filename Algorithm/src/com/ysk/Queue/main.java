@@ -1,4 +1,4 @@
-package com.ysk.queue;
+package com.ysk.Queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
