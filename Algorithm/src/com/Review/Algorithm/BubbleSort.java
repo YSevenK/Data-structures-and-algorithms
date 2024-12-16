@@ -1,4 +1,4 @@
-package com.Review;
+package com.Review.Algorithm;
 
 public class BubbleSort {
     static int[] bubbleSort(int[] arr) {

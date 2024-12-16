@@ -1,4 +1,4 @@
-package com.Review;
+package com.Review.Algorithm;
 
 /**
  * 期末复习题算法1

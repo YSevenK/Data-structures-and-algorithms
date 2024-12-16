@@ -1,4 +1,4 @@
-package com.Review;
+package com.Review.Algorithm;
 
 
 import java.util.Scanner;

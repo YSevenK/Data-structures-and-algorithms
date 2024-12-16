@@ -1,4 +1,4 @@
-package com.Review;
+package com.Review.Print;
 
 public class PrintStart {
     public static void main(String[] args) {
