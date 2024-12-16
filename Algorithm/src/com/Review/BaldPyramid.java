@@ -1,4 +1,4 @@
-package com.Demo;
+package com.Review;
 
 public class BaldPyramid {
     public static void main(String[] args) {

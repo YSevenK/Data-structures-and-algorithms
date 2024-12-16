@@ -1,4 +1,4 @@
-package com.Demo;
+package com.Review;
 
 public class algo3 {
     static int factorialAndSum(int start, int end) {

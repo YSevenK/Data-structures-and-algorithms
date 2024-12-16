@@ -1,4 +1,4 @@
-package com.Demo;
+package com.Review;
 
 
 import java.util.Scanner;
