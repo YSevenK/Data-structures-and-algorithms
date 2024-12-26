@@ -4,7 +4,7 @@ package com.Review.Algorithm;
  * 期末复习题算法1
  */
 public class algo1 {
-    static int[] bubble(int[] arr) {
+    public static void bubble(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
@@ -14,7 +14,6 @@ public class algo1 {
                 }
             }
         }
-        return arr;
     }
 
     public static void main(String[] args) {
@@ -22,10 +21,10 @@ public class algo1 {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(i == 0 ? +arr[i] : "," + arr[i]);
         }
-        int[] result = bubble(arr);
+        bubble(arr);
         System.out.println();
-        for (int i = 0; i < result.length; i++) {
-            System.out.print(i == 0 ? +result[i] : "," + result[i]);
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(i == 0 ? +arr[i] : "," + arr[i]);
         }
     }
 }
