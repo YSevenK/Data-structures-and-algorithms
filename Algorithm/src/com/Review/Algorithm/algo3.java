@@ -1,22 +1,19 @@
 package com.Review.Algorithm;
 
 public class algo3 {
-    static int factorialAndSum(int start, int end) {
+    public static void main(String[] args) {
         int sum = 0;
-        for (int i = start; i < end + 1; i++) {
-            int factorial = 1;
-            for (int j = 2; j <= i; j++) {
-                factorial *= j;
-            }
-            sum += factorial;
+        for (int i = 3; i < 12; i++) {
+            sum += factorial(i);
         }
-        return sum;
+        System.out.println(sum);
     }
 
-    public static void main(String[] args) {
-        int start = 3;
-        int end = 11;
-        int result = factorialAndSum(start, end);
-        System.out.println(result);
+    public static int factorial(int n) {
+        int result = 1;
+        for (int i = 1; i <= n; i++) {
+            result *= i;
+        }
+        return result;
     }
 }
